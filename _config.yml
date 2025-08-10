@@ -1,0 +1,18 @@
+title: Aravind Anisetti
+description: Data — Portfolio & Projects
+theme: jekyll-theme-cayman
+url: "https://aravind-bit.github.io"
+baseurl: ""
+google_analytics: ""
+show_downloads: false
+
+# Navigation (what appears in the header)
+nav:
+  - text: Projects
+    href: /
+  - text: Writing
+    href: /writing
+  - text: Resume
+    href: /assets/Aravind_Resume.pdf
+  - text: Contact
+    href: mailto:anisetti.ar@gmail.com
