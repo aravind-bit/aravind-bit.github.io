@@ -8,7 +8,7 @@ show_downloads: false
 
 # Navigation (what appears in the header)
 nav:
-  - text: Projects
+  - text: Data Science Projects
     href: /
   - text: Writing
     href: /writing
