@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-<link rel="stylesheet" href="/assets/css/custom.css">
+<link rel:"stylesheet" href:"/assets/css/custom.css">
 ---
 
 <div class="hero">
