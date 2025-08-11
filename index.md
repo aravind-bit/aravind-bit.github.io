@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Aravind Anisetti — Data & Analytics Portfolio"
+title: "Aravind Anisetti — Data Science Portfolio"
 ---
 
 <link rel="stylesheet" href="/assets/css/custom.css">
 
 <div class="hero">
-  <div class="hero-title">Data Science Portfolio</div>
-  <div class="hero-sub">Data Analytics • Python • SQL • Tableau • AI/NLP</div>
+  <div class="hero-title">Tech Projects</div>
+  <div class="hero-sub">Data Science & Analytics • Python • SQL • Tableau • AI/NLP</div>
   <div class="hero-tags">
     <span class="pill">Equity KPIs</span>
     <span class="pill">Dashboards</span>
