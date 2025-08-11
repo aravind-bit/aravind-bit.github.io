@@ -6,8 +6,8 @@ title: "Aravind Anisetti — Data & Analytics Portfolio"
 <link rel="stylesheet" href="/assets/css/custom.css">
 
 <div class="hero">
-  <div class="hero-title">Data Portfolio</div>
-  <div class="hero-sub">Financial & Media Analytics • Python • SQL • Tableau • AI/NLP</div>
+  <div class="hero-title">Data Science Portfolio</div>
+  <div class="hero-sub">Data Analytics • Python • SQL • Tableau • AI/NLP</div>
   <div class="hero-tags">
     <span class="pill">Equity KPIs</span>
     <span class="pill">Dashboards</span>
@@ -61,8 +61,8 @@ title: "Aravind Anisetti — Data & Analytics Portfolio"
 
 <div class="about">
   <h3>About</h3>
-  <p>I build analytics that turn financial & media data into decisions: Python pipelines, KPI modeling, and interactive dashboards.
-     Recent focus: equity KPIs, macro indicators, and AI/NLP sentiment.</p>
+  <p>I build data-driven solutions that connect raw information to strategic insights. Tools: Python pipelines, KPI modeling, and interactive dashboards.
+     Recent focus: equity KPIs, macro indicators, and AI/NLP analysis</p>
   <p>
     <a class="btn" href="/assets/Aravind_Resume.pdf">Download Resume</a>
     <a class="btn ghost" href="https://github.com/aravind-bit" target="_blank" rel="noopener">GitHub</a>
