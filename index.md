@@ -1,5 +1,4 @@
 ---
-layout: default
 <link rel="stylesheet" href="/assets/css/custom.css">
 title: Projects
 ---
