@@ -16,6 +16,17 @@ title: "Aravind Anisetti — Data Science Portfolio"
   </div>
 </div>
 
+<div class="about">
+  <h3>About</h3>
+  <p>I build data-driven solutions that connect raw information to strategic insights. Tools: Python pipelines, KPI modeling, and interactive dashboards.
+     Recent focus: equity KPIs, macro indicators, and AI/NLP analysis</p>
+  <p>
+    <a class="btn" href="/assets/Aravind_Resume.pdf">Download Resume</a>
+    <a class="btn ghost" href="https://github.com/aravind-bit" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/aravind-a-7534b6168" target="_blank" rel="noopener">LinkedIn</a>
+  </p>
+</div>
+
 <div class="carousel">
   <div class="slide">Which mid-cap techs convert revenue to profit most efficiently?</div>
   <div class="slide">AI cohort: R&D intensity rising vs. last quarter</div>
@@ -59,15 +70,5 @@ title: "Aravind Anisetti — Data Science Portfolio"
 
 </div>
 
-<div class="about">
-  <h3>About</h3>
-  <p>I build data-driven solutions that connect raw information to strategic insights. Tools: Python pipelines, KPI modeling, and interactive dashboards.
-     Recent focus: equity KPIs, macro indicators, and AI/NLP analysis</p>
-  <p>
-    <a class="btn" href="/assets/Aravind_Resume.pdf">Download Resume</a>
-    <a class="btn ghost" href="https://github.com/aravind-bit" target="_blank" rel="noopener">GitHub</a>
-    <a class="btn ghost" href="https://www.linkedin.com/in/aravind-a-7534b6168" target="_blank" rel="noopener">LinkedIn</a>
-  </p>
-</div>
 
 <a class="contact-btn" href="mailto:anisetti.ar@gmail.com">Contact Me</a>
