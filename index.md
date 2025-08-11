@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Aravind Anisetti
+<link rel="stylesheet" href="/assets/css/custom.css">
 ---
 
 <div class="hero">
