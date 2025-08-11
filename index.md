@@ -1,5 +1,5 @@
 ---
-<link rel="stylesheet" href="/assets/css/custom.css">
+layout: default
 title: Projects
 ---
 
@@ -75,3 +75,5 @@ title: Projects
 </div>
 
 <a class="contact-btn" href="mailto:anisetti.ar@gmail.com">Contact Me</a>
+<link rel="stylesheet" href="/assets/css/custom.css">
+
