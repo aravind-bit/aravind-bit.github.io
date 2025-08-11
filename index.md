@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Projects
-<link rel:"stylesheet" href:"/assets/css/custom.css">
 ---
-
+<link rel:"stylesheet" href:"/assets/css/custom.css">
 <div class="hero">
   <div class="hero-title">Data Portfolio</div>
   <div class="hero-sub">Financial & Media Analytics • Python • SQL • Tableau • AI/NLP</div>
