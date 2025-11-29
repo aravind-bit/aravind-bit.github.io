@@ -1,78 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Redirecting to Aravind’s portfolio…</title>
+    <meta charset="UTF-8" />
+    <title>Aravind Anisetti — Portfolio moved</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- ✅ Main redirect: go straight to the clean portfolio site -->
-    <meta
-      http-equiv="refresh"
-      content="0; url=https://aravind-bit.github.io/portfolio-aravind/"
-    />
-
-    <!-- Basic styling just so the fallback page looks ok -->
     <style>
       :root {
-        color-scheme: dark;
+        --bg: #050816;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+        --accent: #a855f7;
       }
-      body {
+
+      * {
+        box-sizing: border-box;
         margin: 0;
+        padding: 0;
+      }
+
+      body {
         min-height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
+        background: radial-gradient(circle at 10% 20%, #111827 0, #050816 55%);
+        color: var(--text);
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
-          "SF Pro Display", "Segoe UI", sans-serif;
-        background: #050816;
-        color: #e5e7eb;
+          "Segoe UI", sans-serif;
       }
-      main {
+
+      .wrap {
         text-align: center;
-        padding: 2rem;
+        padding: 2.5rem 2rem;
+        max-width: 640px;
       }
+
       h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
+        letter-spacing: 0.04em;
         margin-bottom: 0.75rem;
       }
+
       p {
-        margin: 0.4rem 0;
+        margin-bottom: 1.25rem;
         font-size: 0.95rem;
-        color: #9ca3af;
+        color: var(--muted);
       }
+
       a {
-        color: #a855ff;
+        color: var(--accent);
         text-decoration: none;
         font-weight: 500;
       }
+
       a:hover {
         text-decoration: underline;
       }
     </style>
-
-    <!-- JS fallback in case meta refresh is blocked -->
-    <script>
-      (function () {
-        const target = "https://aravind-bit.github.io/portfolio-aravind/";
-        // Small delay so the text can render if JS is on but meta refresh fails
-        setTimeout(function () {
-          if (window.location.href !== target) {
-            window.location.replace(target);
-          }
-        }, 200);
-      })();
-    </script>
   </head>
   <body>
-    <main>
+    <div class="wrap">
       <h1>Moving to a new home…</h1>
-      <p>This portfolio now lives at the link below:</p>
       <p>
+        This portfolio now lives at
         <a href="https://aravind-bit.github.io/portfolio-aravind/">
           https://aravind-bit.github.io/portfolio-aravind/
-        </a>
+        </a>.
       </p>
-      <p>If you’re not redirected automatically, click the link above.</p>
-    </main>
+      <p>If you weren’t redirected, you can click the link above.</p>
+    </div>
   </body>
 </html>
