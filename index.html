@@ -3,13 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <title>Redirecting to portfolio…</title>
-    <meta http-equiv="refresh" content="0; url=https://aravind-bit.github.io/portfolio-aravind/" />
-    <link rel="canonical" href="https://aravind-bit.github.io/portfolio-aravind/" />
+
+    <!-- Single, clean redirect -->
+    <script>
+      window.location.replace("https://aravind-bit.github.io/portfolio-aravind/");
+    </script>
+
+    <link
+      rel="canonical"
+      href="https://aravind-bit.github.io/portfolio-aravind/"
+    />
     <style>
       body {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
-                     "Helvetica Neue", Arial, sans-serif;
-        background: #0b1020;
+          "Helvetica Neue", Arial, sans-serif;
+        background: #050814;
         color: #f5f7ff;
         display: flex;
         align-items: center;
@@ -17,25 +25,31 @@
         height: 100vh;
         margin: 0;
       }
+
       a {
         color: #c4b5fd;
         text-decoration: none;
       }
+
       a:hover {
         text-decoration: underline;
       }
+
       .box {
         text-align: center;
+        padding: 1.5rem 2rem;
       }
     </style>
   </head>
   <body>
-    <div class="box">
-      <p>Redirecting to the new portfolio…</p>
-      <p>
-        If nothing happens, <a href="https://aravind-bit.github.io/portfolio-aravind/">
-        click here</a>.
-      </p>
-    </div>
+    <noscript>
+      <div class="box">
+        <p>Redirecting to the new portfolio…</p>
+        <p>
+          If nothing happens, <a href="https://aravind-bit.github.io/portfolio-aravind/">
+          click here</a>.
+        </p>
+      </div>
+    </noscript>
   </body>
 </html>
