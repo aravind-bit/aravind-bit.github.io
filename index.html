@@ -4,52 +4,57 @@
     <meta charset="utf-8" />
     <title>Redirecting to portfolio…</title>
 
-    <!-- Single, clean redirect -->
-    <script>
-      window.location.replace("https://aravind-bit.github.io/portfolio-aravind/");
-    </script>
+    <!-- Canonical points to the portfolio site -->
+    <link rel="canonical" href="https://aravind-bit.github.io/portfolio-aravind/" />
 
-    <link
-      rel="canonical"
-      href="https://aravind-bit.github.io/portfolio-aravind/"
-    />
     <style>
+      :root {
+        color-scheme: dark;
+      }
+      * {
+        box-sizing: border-box;
+      }
       body {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
-          "Helvetica Neue", Arial, sans-serif;
-        background: #050814;
+                     "Helvetica Neue", Arial, sans-serif;
+        background: #050816;
         color: #f5f7ff;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        min-height: 100vh;
         margin: 0;
       }
-
       a {
         color: #c4b5fd;
         text-decoration: none;
       }
-
       a:hover {
         text-decoration: underline;
       }
-
       .box {
         text-align: center;
-        padding: 1.5rem 2rem;
+        font-size: 1rem;
+        line-height: 1.6;
       }
     </style>
+
+    <script>
+      // Use JS redirect so there is no meta-refresh loop / flicker
+      (function () {
+        var target = "https://aravind-bit.github.io/portfolio-aravind/";
+        // Use replace so the back button doesn't keep bouncing
+        window.location.replace(target);
+      })();
+    </script>
   </head>
   <body>
-    <noscript>
-      <div class="box">
-        <p>Redirecting to the new portfolio…</p>
-        <p>
-          If nothing happens, <a href="https://aravind-bit.github.io/portfolio-aravind/">
-          click here</a>.
-        </p>
-      </div>
-    </noscript>
+    <div class="box">
+      <p>Redirecting to the new portfolio…</p>
+      <p>
+        If nothing happens, <a href="https://aravind-bit.github.io/portfolio-aravind/">
+        click here</a>.
+      </p>
+    </div>
   </body>
 </html>
