@@ -460,3 +460,11 @@ a {
     margin-bottom: 1rem;
   }
 }
+
+.section-label {
+  margin-bottom: 0.75rem !important; /* reduce space under ABOUT */
+}
+
+#about .section-inner {
+  gap: 1rem !important;   /* tighten spacing between label and paragraphs */
+}
