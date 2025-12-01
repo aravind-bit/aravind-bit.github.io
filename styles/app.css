@@ -394,7 +394,12 @@ body.theme-dark .chip {
 }
 
 .red-pill-accent {
-  background: linear-gradient(90deg, #6a6cf6 0%, #b06af6 100%);
+  background: linear-gradient(
+    90deg,
+    #00563E 0%,      /* your main green */
+    #1B8A6F 50%,     /* mid mint-green */
+    #6FF2C7 100%     /* bright mint for contrast */
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
