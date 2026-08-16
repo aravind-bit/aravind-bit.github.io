@@ -24,6 +24,12 @@ published, verified, and explicitly approved.
 
 ## Recruiter attention and visual rules
 
+- Treat Textent as the primary calling card on the portfolio. State the review
+  problem, product outcome, AI role, evidence controls, and Aravind's product
+  ownership before listing supporting infrastructure.
+- Keep the portfolio and case study on the same warm-neutral, deep-navy, and
+  emerald palette. The case study may use denser technical diagrams, but it
+  should still feel like the same visual system.
 - Keep one connected narrative: the review problem, differentiated product and
   enterprise direction, connected target architecture, then evidence boundary.
 - Target roughly three desktop screen lengths; do not restore long standalone
@@ -32,6 +38,10 @@ published, verified, and explicitly approved.
   and emerald accents. Avoid introducing a competing saturated color without
   explicit approval.
 - Lead every technical area with the business or operating decision it enables.
+- Keep public section order intentional: profile, Textent, architecture approach,
+  technical foundation, writing, selected work, credentials, and contact.
+- Promote substantive published articles. Do not add short static notes to the
+  homepage merely to increase the number of writing links.
 - Do not add an elaborate synthetic product interface. Explain Reuse, Compare,
   and Decide in concise text so the page is not mistaken for a functioning app.
 - Keep the AWS diagram conceptual but connected from authorized sources through
@@ -82,6 +92,10 @@ When the resume changes:
    Pages publication.
 
 Do not retain superseded resumes in public asset paths.
+
+Resume prose should use short, natural sentences. Keep `8+ years of experience`
+in the summary, avoid long compound bullets where two sentences read better,
+and preserve ASCII punctuation for reliable ATS extraction.
 
 Do not add a promotional marquee-client banner above the experience section.
 FAA, Cisco, and Kaiser Permanente should appear in their defensible program or

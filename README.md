@@ -17,7 +17,7 @@ analytics, cloud-data delivery, automation, and applied-AI product work.
 - `scripts/main.js` - theme and lightweight interaction
 - `textent/` - self-contained, synthetic Textent product-architecture case study
 - `assets/resume/` - broad Data & AI Solutions Architect resume in PDF and DOCX formats
-- `docs/memos/` - selected public writing and architecture memos
+- `docs/memos/` - retained public notes; not promoted on the main portfolio
 
 ## Public-information boundary
 

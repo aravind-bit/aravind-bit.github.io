@@ -96,3 +96,25 @@ delete history or force-push `main`.
 - Consolidated two short local memos into a compact additional-writing row.
 - Verified that the master and three application-specific resume DOCX and PDF
   files contain no em dash or en dash characters.
+
+## 2026-08-16 Textent calling-card and prose revision
+
+- Rewrote the portfolio introduction to use `more than eight years of
+  experience` and shorter sentences.
+- Replaced `I currently serve as` with a direct description of current FAA
+  analytics responsibilities and combined the applied-AI contribution into the
+  same profile paragraph.
+- Rebuilt the Textent homepage card around the document-review problem, product
+  outcome, AI pipeline, evidence controls, enterprise direction, and creator
+  ownership. Removed implementation-process language that did not differentiate
+  the product.
+- Replaced the generic scale-design list with structure-aware parsing and
+  chunking, embeddings, hybrid retrieval, reranking, bounded Amazon Bedrock use,
+  exact-source validation, and human approval.
+- Aligned the portfolio palette and component geometry with the Textent case
+  study's warm-neutral, deep-navy, and emerald visual system.
+- Moved selected work below technical foundation and published writing. Removed
+  the two short static memo links from the homepage.
+- Regenerated the broad public resume and three private role variants with
+  shorter sentences, natural phrasing, and the existing ATS keywords and
+  measurable outcomes preserved.

@@ -31,7 +31,7 @@
       gtag("config", "G-TPZ45FG3Y6");
     </script>
 
-    <link rel="stylesheet" href="styles/app.css?v=20260816-2" />
+    <link rel="stylesheet" href="styles/app.css?v=20260816-3" />
   </head>
 
   <body class="theme-light">
@@ -43,9 +43,9 @@
         <nav class="nav-links" aria-label="Primary navigation">
           <a href="#profile">Profile</a>
           <a href="#textent">Textent</a>
-          <a href="#work">Selected work</a>
-          <a href="#approach">Architecture approach</a>
+          <a href="#stack">Technical foundation</a>
           <a href="#writing">Writing</a>
+          <a href="#work">Selected work</a>
           <a href="#contact">Contact</a>
           <button
             id="themeToggle"
@@ -70,9 +70,10 @@
           </h1>
 
           <p class="hero-subtitle">
-            Data Analytics Lead with eight years of delivery across AWS, cloud
-            data platforms, enterprise analytics, automation, and applied AI,
-            backed by architecture judgment and hands-on execution.
+            Data Analytics Lead with more than eight years of experience across
+            AWS, cloud data platforms, enterprise analytics, automation, and
+            applied AI. I turn complex requirements into reliable systems that
+            teams can use, govern, and improve.
           </p>
 
           <div class="hero-actions">
@@ -103,8 +104,8 @@
               <span>Data and analytics delivery</span>
             </div>
             <div>
-              <strong>AWS SAA</strong>
-              <span>Solutions architecture foundation</span>
+              <strong>AWS certified</strong>
+              <span>Solutions Architect + AI Practitioner</span>
             </div>
             <div>
               <strong>Applied AI</strong>
@@ -122,17 +123,14 @@
           <div class="section-inner profile-grid">
             <div class="section-body">
               <p>
-                I currently serve as a Data Analytics Lead on
-                an FAA program at Karsun Solutions. My work connects stakeholder
-                needs to Redshift and SQL data models, Power BI reporting,
-                AWS-based data workflows, monitoring, automation, and governed
-                analytics delivery.
-              </p>
-              <p>
-                I have also supported a tightly controlled internal RAG chat
-                capability using Azure OpenAI and Azure AI Search through Power
-                Automate notification workflows, SQL connector support, and
-                retrieval-design discussions.
+                As a Data Analytics Lead on an FAA program at Karsun Solutions,
+                I translate stakeholder needs into dependable analytics. My work
+                spans Redshift and SQL data models, Power BI reporting, AWS data
+                workflows, monitoring, automation, and governance. I also
+                contributed to a tightly controlled internal RAG capability using
+                Azure OpenAI and Azure AI Search. My role included Power Automate
+                notifications, SQL connector support, and retrieval-design input
+                within enterprise security constraints.
               </p>
             </div>
 
@@ -153,151 +151,69 @@
           <article class="featured-card">
             <div class="featured-copy">
               <div class="status-row">
-                <span class="status-pill">ACTIVE DEVELOPMENT</span>
-                <span>Closed source · Private technical validation</span>
+                <span class="status-pill">PRIVATE PRODUCT IN DEVELOPMENT</span>
+                <span>Verified offline core · Designed enterprise architecture</span>
               </div>
 
               <p class="card-tag">CREATOR &amp; PRODUCT ARCHITECT</p>
-              <h2>Textent: Decisions You Can Defend</h2>
+              <h2>Textent turns document change into decisions teams can trace.</h2>
               <p class="featured-lead">
-                Textent is designed for large, versioned document sets where
-                structure, evidence, and prior decisions must survive every
-                review. It turns the work into a bounded set of consequential
-                findings: what changed, why it matters, what needs attention,
-                and what was ultimately decided.
+                Long, versioned documents bury the few changes that alter
+                meaning. Textent is a private document-intelligence product in
+                development that finds those material changes, links each one to
+                exact source evidence, explains why it matters, and keeps the
+                next action with the reviewer’s decision.
               </p>
               <p>
-                I created the product direction, designed the target architecture,
-                and led implementation through reviewed GitHub pull requests and
-                automated verification. The case study separates the working core
-                from the enterprise roadmap so every claim is easy to inspect.
+                I defined the product thesis, review model, evidence contracts,
+                target AWS architecture, governance controls, and acceptance
+                gates. I also directed implementation of the verified offline core.
               </p>
 
               <div class="card-links">
                 <a
                   href="textent/"
                   data-cta="textent-case-study"
-                >Explore the Textent.ai architecture case study →</a>
+                >See how the product and AI architecture work →</a>
               </div>
 
-              <div class="decision-grid" aria-label="Textent architecture decisions">
+              <div class="decision-grid" aria-label="Textent AI pipeline">
                 <div>
-                  <strong>Structured extraction</strong>
-                  <span>DOCX structure becomes stable evidence anchors instead of an indiscriminate text dump.</span>
+                  <strong>Understand the document</strong>
+                  <span>Structure-aware parsing and chunking preserve sections, tables, versions, and evidence anchors.</span>
                 </div>
                 <div>
-                  <strong>Bounded AI assignment</strong>
-                  <span>The designed model stage receives admitted candidates and compact evidence, not an uncontrolled document dump.</span>
+                  <strong>Retrieve what matters</strong>
+                  <span>Embeddings, hybrid search, and reranking narrow large document sets to the passages worth reviewing.</span>
                 </div>
                 <div>
-                  <strong>Fail-closed validation</strong>
-                  <span>Schema, evidence IDs, quotations, and allowed claims are checked before display.</span>
-                </div>
-                <div>
-                  <strong>Event-driven scale design</strong>
-                  <span>Direct intake, queue backpressure, workflow state, recovery, deletion, and content-free telemetry are specified as operating contracts.</span>
+                  <strong>Use AI without losing control</strong>
+                  <span>Amazon Bedrock can classify or explain bounded candidates; exact-source validation and human approval control the result.</span>
                 </div>
               </div>
 
-              <p class="availability-note">Product architecture case study · Synthetic scenario · No sign-up required</p>
+              <p class="availability-note">Private product in development · Public case study uses synthetic content · No customer or production claims</p>
             </div>
 
-            <div class="architecture-panel" aria-label="Textent target architecture summary">
-              <span class="status-label">PROPOSED SCALE DESIGN · NOT DEPLOYED</span>
+            <div class="architecture-panel" aria-label="Textent AI and enterprise design summary">
+              <span class="status-label">WHY AI · HOW IT STAYS CONTROLLED</span>
+              <p class="panel-lead">
+                Rules can find obvious differences. AI is reserved for the
+                harder work: grouping related revisions, ranking materiality,
+                and explaining impact across long documents.
+              </p>
               <ol>
-                <li>React / TypeScript client</li>
-                <li>API Gateway and Lambda services</li>
-                <li>EventBridge, SQS/DLQ, and Step Functions</li>
-                <li>S3 and DynamoDB storage boundaries</li>
-                <li>Bounded Amazon Bedrock model stage</li>
-                <li>Cognito, KMS, CDK, CI, and CloudWatch controls</li>
+                <li>Parse and preserve document structure</li>
+                <li>Chunk, embed, retrieve, and rerank evidence</li>
+                <li>Use Bedrock for bounded classification and explanation</li>
+                <li>Validate every finding against exact source evidence</li>
+                <li>Keep acceptance and action human-owned</li>
               </ol>
-              <p>Target design; not represented as fully deployed production infrastructure.</p>
+              <p class="stack-note"><strong>Target AWS stack:</strong> Bedrock, OpenSearch, Lambda, Step Functions, S3, DynamoDB, Cognito, and CloudWatch.</p>
+              <p><strong>Enterprise direction:</strong> authorized OneDrive, SharePoint, Teams, and Slack sources; version comparison, template generation, revision marking, approvals, and an audit trail.</p>
+              <p>Target design; not represented as deployed production infrastructure.</p>
             </div>
           </article>
-        </section>
-
-        <section class="section" id="work">
-          <div class="section-label">SELECTED WORK</div>
-          <p class="section-intro">
-            Public prototypes spanning financial intelligence, media strategy,
-            machine learning, explainability, and decision-support workflows.
-          </p>
-
-          <div class="cards-grid">
-            <article class="card">
-              <div class="card-tag">FINANCIAL INTELLIGENCE · APPLIED AI</div>
-              <h3 class="card-title">FinSense</h3>
-              <p class="card-body">
-                A Python, OpenAI, and Streamlit prototype that transforms a
-                limited set of sample earnings materials into KPI extracts,
-                structured insight packs, summaries, and document-aware Q&amp;A.
-              </p>
-              <div class="card-links">
-                <a
-                  href="https://finsense-earnings-ai-pukp5rnrs2ehkahbetjabq.streamlit.app/"
-                  target="_blank"
-                  rel="noopener"
-                  data-cta="finsense-demo"
-                >Live prototype ↗</a>
-                <a
-                  href="https://github.com/aravind-bit/finsense-earnings-ai"
-                  target="_blank"
-                  rel="noopener"
-                  data-cta="finsense-repo"
-                >Repository ↗</a>
-              </div>
-            </article>
-
-            <article class="card">
-              <div class="card-tag">MEDIA STRATEGY · EXPLAINABLE AI</div>
-              <h3 class="card-title">StreamShift</h3>
-              <p class="card-body">
-                A media-merger strategy sandbox using explainable rules,
-                embeddings and FAISS, traceable sources, IP-similarity views,
-                and interactive scenarios to explore where titles could land
-                after a deal.
-              </p>
-              <div class="card-links">
-                <a
-                  href="https://streamshift-aiaptrnvxydq4ka23avbsz.streamlit.app/"
-                  target="_blank"
-                  rel="noopener"
-                  data-cta="streamshift-demo"
-                >Live prototype ↗</a>
-                <a
-                  href="https://github.com/aravind-bit/streamshift"
-                  target="_blank"
-                  rel="noopener"
-                  data-cta="streamshift-repo"
-                >Repository ↗</a>
-              </div>
-            </article>
-
-            <article class="card">
-              <div class="card-tag">MEDIA OPTIMIZATION · MACHINE LEARNING</div>
-              <h3 class="card-title">OnePlan AI</h3>
-              <p class="card-body">
-                A synthetic cross-media planning workflow combining response
-                modeling, audience-overlap simulation, constrained optimization,
-                and explainability to compare conversion and reach trade-offs.
-              </p>
-              <div class="card-links">
-                <a
-                  href="https://oneplan-ai-jjuugdhyklgrz6d8ptvjr3.streamlit.app/"
-                  target="_blank"
-                  rel="noopener"
-                  data-cta="oneplan-demo"
-                >Live prototype ↗</a>
-                <a
-                  href="https://github.com/aravind-bit/oneplan-ai"
-                  target="_blank"
-                  rel="noopener"
-                  data-cta="oneplan-repo"
-                >Repository ↗</a>
-              </div>
-            </article>
-          </div>
         </section>
 
         <section class="section" id="approach">
@@ -390,10 +306,88 @@
             </article>
           </div>
 
-          <div class="supporting-links" aria-label="Additional writing">
-            <strong>Additional notes</strong>
-            <a href="docs/memos/finance.html">Reliable Financial Data Workflows →</a>
-            <a href="docs/memos/media.html">Analytics for Content &amp; Growth Teams →</a>
+        </section>
+
+        <section class="section" id="work">
+          <div class="section-label">SELECTED WORK</div>
+          <p class="section-intro">
+            Public prototypes spanning financial intelligence, media strategy,
+            machine learning, explainability, and decision-support workflows.
+          </p>
+
+          <div class="cards-grid">
+            <article class="card">
+              <div class="card-tag">FINANCIAL INTELLIGENCE · APPLIED AI</div>
+              <h3 class="card-title">FinSense</h3>
+              <p class="card-body">
+                A Python, OpenAI, and Streamlit prototype that transforms a
+                limited set of sample earnings materials into KPI extracts,
+                structured insight packs, summaries, and document-aware Q&amp;A.
+              </p>
+              <div class="card-links">
+                <a
+                  href="https://finsense-earnings-ai-pukp5rnrs2ehkahbetjabq.streamlit.app/"
+                  target="_blank"
+                  rel="noopener"
+                  data-cta="finsense-demo"
+                >Live prototype ↗</a>
+                <a
+                  href="https://github.com/aravind-bit/finsense-earnings-ai"
+                  target="_blank"
+                  rel="noopener"
+                  data-cta="finsense-repo"
+                >Repository ↗</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-tag">MEDIA STRATEGY · EXPLAINABLE AI</div>
+              <h3 class="card-title">StreamShift</h3>
+              <p class="card-body">
+                A media-merger strategy sandbox using explainable rules,
+                embeddings and FAISS, traceable sources, IP-similarity views,
+                and interactive scenarios to explore where titles could land
+                after a deal.
+              </p>
+              <div class="card-links">
+                <a
+                  href="https://streamshift-aiaptrnvxydq4ka23avbsz.streamlit.app/"
+                  target="_blank"
+                  rel="noopener"
+                  data-cta="streamshift-demo"
+                >Live prototype ↗</a>
+                <a
+                  href="https://github.com/aravind-bit/streamshift"
+                  target="_blank"
+                  rel="noopener"
+                  data-cta="streamshift-repo"
+                >Repository ↗</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-tag">MEDIA OPTIMIZATION · MACHINE LEARNING</div>
+              <h3 class="card-title">OnePlan AI</h3>
+              <p class="card-body">
+                A synthetic cross-media planning workflow combining response
+                modeling, audience-overlap simulation, constrained optimization,
+                and explainability to compare conversion and reach trade-offs.
+              </p>
+              <div class="card-links">
+                <a
+                  href="https://oneplan-ai-jjuugdhyklgrz6d8ptvjr3.streamlit.app/"
+                  target="_blank"
+                  rel="noopener"
+                  data-cta="oneplan-demo"
+                >Live prototype ↗</a>
+                <a
+                  href="https://github.com/aravind-bit/oneplan-ai"
+                  target="_blank"
+                  rel="noopener"
+                  data-cta="oneplan-repo"
+                >Repository ↗</a>
+              </div>
+            </article>
           </div>
         </section>
 
