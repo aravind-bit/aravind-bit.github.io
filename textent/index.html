@@ -11,13 +11,13 @@
     <meta property="og:title" content="Textent.ai | GenAI Product Architecture Case Study" />
     <meta
       property="og:description"
-      content="Turn complex documents into decisions you can defend. Explore the product thesis, AWS scale architecture, Bedrock boundary, and exact-evidence controls."
+      content="Turn complex documents into decisions you can defend. Explore the product experience, AWS architecture, and evidence controls."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://aravind-bit.github.io/textent/" />
     <meta property="og:image" content="https://aravind-bit.github.io/textent/assets/textent-case-study-social.png" />
     <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="562" />
+    <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="canonical" href="https://aravind-bit.github.io/textent/" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b2a4a'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-size='34' font-family='Arial,sans-serif' font-weight='700' fill='white'%3ET%3C/text%3E%3C/svg%3E" />
@@ -33,7 +33,6 @@
       </a>
       <nav aria-label="Case study navigation">
         <a href="#product">Product</a>
-        <a href="#decisions">Decisions</a>
         <a href="#architecture">Architecture</a>
         <a href="#evidence">Evidence</a>
         <a class="portfolio-link" href="../">Aravind's portfolio ↗</a>
@@ -45,83 +44,64 @@
         <div class="hero-copy">
           <div class="eyebrow">PRIVATE GENAI PRODUCT ARCHITECTURE CASE STUDY</div>
           <h1>Turn complex documents into <span>decisions you can defend.</span></h1>
-          <p class="hero-tagline">Know what changed. Know why it matters.</p>
           <p class="hero-lead">
-            Textent is designed for large, versioned document sets where structure,
-            evidence, and prior decisions must survive every review. It reduces the
-            work to a bounded set of consequential findings—each tied to an exact
-            source and a human next action.
+            Textent is designed for large, versioned document sets where the real
+            work is not reading every page—it is finding the few changes that alter
+            a decision, opening the exact evidence, and recording what happens next.
           </p>
           <div class="tech-tags" aria-label="Architecture focus">
             <span>EVENT-DRIVEN AWS</span>
             <span>AMAZON BEDROCK</span>
-            <span>EXACT-EVIDENCE VALIDATION</span>
-            <span>HUMAN-IN-THE-LOOP</span>
+            <span>EXACT EVIDENCE</span>
+            <span>HUMAN APPROVAL</span>
           </div>
           <div class="hero-actions">
-            <a class="button light-button" href="#product">See the product thesis ↓</a>
-            <a class="button outline-button" href="#architecture">Inspect the AWS design</a>
+            <a class="button primary-button" href="#product">See the experience ↓</a>
+            <a class="button ghost-button" href="#architecture">Inspect the AWS design</a>
           </div>
         </div>
 
-        <aside class="hero-console" aria-label="Case study status">
-          <div class="console-bar"><span>SYSTEM_STATUS</span><strong>PRIVATE DEVELOPMENT</strong></div>
-          <div class="console-core">
-            <span class="console-label">THE OPERATING MODEL</span>
-            <strong>3</strong>
-            <p>GUIDED REVIEW PATHS</p>
-            <div class="console-paths">
-              <span>REUSE</span>
-              <span>COMPARE</span>
-              <span>DECIDE</span>
+        <aside class="hero-summary" aria-label="Textent operating model">
+          <div class="summary-status">
+            <span>PRODUCT MODEL</span>
+            <strong>PRIVATE DEVELOPMENT</strong>
+          </div>
+          <div class="summary-core">
+            <span class="summary-kicker">ONE REVIEW WORKSPACE</span>
+            <h2>Three paths to a decision.</h2>
+            <div class="summary-paths">
+              <div><span>01</span><strong>Reuse</strong><small>Prepare the next version safely</small></div>
+              <div><span>02</span><strong>Compare</strong><small>Separate material change from noise</small></div>
+              <div><span>03</span><strong>Decide</strong><small>Resolve assumptions and open questions</small></div>
             </div>
           </div>
-          <p class="console-note">Not launched · No customers · No live model or document processing on this page</p>
+          <p class="summary-note">Synthetic case study · Not launched · No customers · No live document processing</p>
         </aside>
       </section>
 
       <section class="brief-strip" aria-label="Case study summary">
-        <article>
-          <span>THE MISSION</span>
-          <h2>Make document review decision-ready.</h2>
-          <p>Surface the few changes that still need human judgment without flattening structure or losing proof.</p>
-        </article>
-        <article>
-          <span>THE ARCHITECTURE</span>
-          <h2>Deterministic first. AI where it earns a role.</h2>
-          <p>Asynchronous AWS processing surrounds a bounded Bedrock stage with admission, evidence, and recovery controls.</p>
-        </article>
-        <article>
-          <span>MY ROLE</span>
-          <h2>Creator &amp; Product Architect.</h2>
-          <p>Product thesis, workflow boundaries, trust model, AWS target design, acceptance gates, and implementation direction.</p>
-        </article>
+        <article><span>THE PROBLEM</span><strong>Long reviews lose context between reading and deciding.</strong></article>
+        <article><span>THE PRODUCT</span><strong>Evidence, consequence, action, and disposition stay together.</strong></article>
+        <article><span>MY ROLE</span><strong>Creator &amp; Product Architect—product thesis, trust model, and AWS target design.</strong></article>
       </section>
 
-      <section class="presentation-section product-section" id="product">
-        <div class="section-number">01</div>
+      <section class="case-section product-section" id="product">
         <div class="section-heading">
-          <div class="eyebrow dark-eyebrow">THE PRODUCT THESIS</div>
-          <h2>The failure is not reading. It is losing context between reading and deciding.</h2>
-          <p>
-            Extraction tools turn documents into data. Search retrieves passages.
-            Chat answers questions. Textent is designed to preserve the review itself:
-            the source, consequence, action, reviewer disposition, and version history.
-          </p>
+          <div><span class="section-index">01</span><span class="eyebrow dark-eyebrow">THE PRODUCT EXPERIENCE</span></div>
+          <h2>From document changes to a clear next decision.</h2>
+          <p>Each material change is reduced to paired source evidence, why it matters, and a human-controlled next action.</p>
         </div>
 
-        <div class="job-flow" aria-label="Textent review paths">
-          <article><span>01</span><strong>Reuse safely</strong><p>Find what must change before a document is reused, while protecting the original.</p></article>
-          <i aria-hidden="true">→</i>
-          <article><span>02</span><strong>Show what changed</strong><p>Separate material revisions from noise and open paired source evidence.</p></article>
-          <i aria-hidden="true">→</i>
-          <article><span>03</span><strong>Check a decision</strong><p>Compare alternatives, missing information, assumptions, and questions before proceeding.</p></article>
+        <div class="operating-paths" aria-label="Textent review paths">
+          <article><span>REUSE</span><p>Protect the original and surface what must change before reuse.</p></article>
+          <article><span>COMPARE</span><p>Distinguish consequential revisions from formatting and wording noise.</p></article>
+          <article><span>DECIDE</span><p>Expose assumptions, missing evidence, and unresolved questions.</p></article>
         </div>
 
         <div class="product-frame">
           <div class="product-frame-bar">
             <div><span>WHAT NEEDS YOUR ATTENTION</span><strong>Data Services Agreement · v3 → v4</strong></div>
-            <div class="review-progress"><i></i>3 of 7 material changes reviewed</div>
+            <div class="review-progress"><i></i>3 of 7 synthetic findings reviewed</div>
           </div>
 
           <div class="change-tabs" role="tablist" aria-label="Synthetic document changes">
@@ -131,14 +111,16 @@
           </div>
 
           <div class="review-grid">
-            <article class="evidence-card before-card">
-              <span>PREVIOUS · § 8.2</span>
-              <blockquote id="beforeText">Provider will delete customer content within 30 days after termination.</blockquote>
-            </article>
-            <article class="evidence-card after-card">
-              <span>REVISED · § 8.2</span>
-              <blockquote id="afterText">Provider may retain customer content for up to 120 days after termination for operational purposes.</blockquote>
-            </article>
+            <div class="evidence-stack">
+              <article class="evidence-card before-card">
+                <span>PREVIOUS · § 8.2</span>
+                <blockquote id="beforeText">Provider will delete customer content within 30 days after termination.</blockquote>
+              </article>
+              <article class="evidence-card after-card">
+                <span>REVISED · § 8.2</span>
+                <blockquote id="afterText">Provider may retain customer content for up to 120 days after termination for operational purposes.</blockquote>
+              </article>
+            </div>
             <article class="decision-card">
               <span class="risk-chip" id="riskChip">MATERIAL · RETENTION</span>
               <h3 id="changeTitle">Deletion window expanded by 90 days.</h3>
@@ -151,253 +133,119 @@
               </div>
             </article>
           </div>
-          <p class="case-note">Synthetic experience only. No upload, API, persistence, AI call, customer record, or legal advice.</p>
+          <p class="case-note">Synthetic interaction only. No upload, model call, persistence, customer record, or legal advice.</p>
         </div>
       </section>
 
-      <section class="presentation-section decisions-section" id="decisions">
-        <div class="section-number">02</div>
-        <div class="decision-layout">
-          <div>
-            <div class="eyebrow dark-eyebrow">ARCHITECTURAL DECISIONS</div>
-            <h2>The architecture is the product promise made enforceable.</h2>
-            <ol class="architecture-decisions">
-              <li><span>01</span><div><strong>Move the workload off the request path</strong><p>Direct object upload, queue backpressure, and observable orchestration keep heavy document work out of a fragile synchronous API call.</p></div></li>
-              <li><span>02</span><div><strong>Preserve structure before adding semantics</strong><p>Validate DOCX/OOXML, extract ordered blocks, and create source-bound evidence anchors before chunking, retrieval, or model judgment.</p></div></li>
-              <li><span>03</span><div><strong>Give the model a bounded assignment</strong><p>A benchmark-selected Bedrock configuration may classify, group, rank, or explain candidates. It does not invent the source set or approve the outcome.</p></div></li>
-              <li><span>04</span><div><strong>Let evidence veto the model</strong><p>Source identity, location, quotation, schema, and allowed-claim checks must pass before a finding reaches the reviewer.</p></div></li>
-            </ol>
+      <section class="case-section architecture-section" id="architecture">
+        <div class="section-heading light-heading">
+          <div><span class="section-index">02</span><span class="eyebrow">THE TARGET ARCHITECTURE</span></div>
+          <h2>An observable AWS workflow for heavy document work.</h2>
+          <p>Career-safe AWS reference design. It communicates service responsibilities and design judgment, not a deployed production topology.</p>
+        </div>
+
+        <div class="architecture-board" aria-label="Condensed Textent AWS target architecture">
+          <div class="architecture-flow">
+            <article class="architecture-node source-node">
+              <span class="node-step">01 · SOURCE</span>
+              <div class="node-icons"><img src="assets/aws/cloudfront.svg" alt="" /><img src="assets/aws/cognito.svg" alt="" /></div>
+              <strong>Authorized intake</strong>
+              <small>Browser now · Microsoft 365 connectors later</small>
+            </article>
+            <i aria-hidden="true">→</i>
+            <article class="architecture-node">
+              <span class="node-step">02 · ADMIT</span>
+              <div class="node-icons"><img src="assets/aws/api-gateway.svg" alt="" /><img src="assets/aws/s3.svg" alt="" /></div>
+              <strong>Bounded upload</strong>
+              <small>Limits, reservation, and direct temporary storage</small>
+            </article>
+            <i aria-hidden="true">→</i>
+            <article class="architecture-node">
+              <span class="node-step">03 · ORCHESTRATE</span>
+              <div class="node-icons"><img src="assets/aws/sqs.svg" alt="" /><img src="assets/aws/step-functions.svg" alt="" /></div>
+              <strong>Backpressure + state</strong>
+              <small>Queue, DLQ, retries, and observable job steps</small>
+            </article>
+            <i aria-hidden="true">→</i>
+            <article class="architecture-node accent-node">
+              <span class="node-step">04 · ANALYZE</span>
+              <div class="node-icons"><img src="assets/aws/lambda.svg" alt="" /><img src="assets/aws/bedrock.svg" alt="" /></div>
+              <strong>Bounded AI judgment</strong>
+              <small>Extract, anchor, classify, explain, then validate</small>
+            </article>
+            <i aria-hidden="true">→</i>
+            <article class="architecture-node result-node">
+              <span class="node-step">05 · DECIDE</span>
+              <div class="node-icons"><img src="assets/aws/dynamodb.svg" alt="" /><img src="assets/aws/s3.svg" alt="" /></div>
+              <strong>Versioned outcome</strong>
+              <small>Evidence, action, reviewer disposition, audit trail</small>
+            </article>
           </div>
 
-          <aside class="proof-panel">
-            <div class="proof-block verified"><span>VERIFIED OFFLINE</span><strong>Document and trust contracts</strong><p>Structural validation, main-body extraction, evidence anchors, admission limits, fail-closed evidence validation, workflow contracts, and CI.</p></div>
-            <div class="proof-block target"><span>TARGET DESIGN</span><strong>AWS operating architecture</strong><p>Direct upload, asynchronous orchestration, model boundary, metadata-only state, deletion, observability, and cost controls.</p></div>
-            <div class="proof-block future"><span>CONDITIONAL DIRECTION</span><strong>Enterprise retrieval and workflow</strong><p>Permission-aware connectors, hybrid retrieval, RAG, controlled generation, document-native revisions, and approvals.</p></div>
-          </aside>
+          <div class="governance-rail" aria-label="Cross-cutting AWS controls">
+            <span>CONTROL PLANE</span>
+            <div><img src="assets/aws/kms.svg" alt="" /><strong>KMS</strong><small>encryption</small></div>
+            <div><img src="assets/aws/cloudwatch.svg" alt="" /><strong>CloudWatch</strong><small>health + cost</small></div>
+            <div><img src="assets/aws/cloudtrail.svg" alt="" /><strong>CloudTrail</strong><small>audit</small></div>
+            <div><img src="assets/aws/cdk.svg" alt="" /><strong>AWS CDK</strong><small>repeatable controls</small></div>
+          </div>
+        </div>
+
+        <div class="decision-grid">
+          <article><span>01</span><strong>Serverless around irregular demand</strong><p>Direct upload, queues, and independent worker scaling keep long jobs off the synchronous request path and avoid idle application compute.</p></article>
+          <article><span>02</span><strong>AI receives a bounded assignment</strong><p>A benchmark-selected Bedrock configuration may rank or explain candidates; exact-source checks can reject the output before review.</p></article>
+          <article><span>03</span><strong>Cost and governance are design inputs</strong><p>Admission limits, concurrency, token ceilings, encryption, audit, retention, deletion, alarms, and a kill switch are part of the workflow.</p></article>
+        </div>
+
+        <div class="retrieval-roadmap">
+          <div><span>CONDITIONAL ENTERPRISE DIRECTION · NOT IMPLEMENTED</span><strong>Authorize first. Preserve lineage. Retrieve only the bounded evidence set.</strong></div>
+          <p>Structure-aware chunking → embeddings → permission-filtered hybrid retrieval → reranking → evidence-backed RAG → exact-source validation.</p>
         </div>
       </section>
 
-      <section class="presentation-section architecture-section" id="architecture">
-        <div class="section-number">03</div>
-        <div class="section-heading architecture-title-row">
-          <div>
-            <div class="eyebrow dark-eyebrow">SYSTEM ARCHITECTURE</div>
-            <h2>AWS target for bursty, asynchronous document workloads.</h2>
-          </div>
-          <p><strong>Architecture status:</strong> career-safe reference design, not deployed. Official AWS icons show intended service responsibilities—not production topology or runtime evidence.</p>
-        </div>
-
-        <div class="architecture-board" aria-label="Detailed Textent AWS target architecture">
-          <div class="source-boundary">
-            <div class="boundary-title">DOCUMENT SOURCES</div>
-            <div class="source-users">
-              <div class="people-icon" aria-hidden="true"><i></i><i></i><i></i></div>
-              <strong>Review teams</strong>
-            </div>
-            <div class="source-list">
-              <span>Browser upload</span>
-              <span class="future-source">OneDrive</span>
-              <span class="future-source">SharePoint</span>
-              <span class="future-source">Teams / Slack</span>
-            </div>
-            <small>Future connectors must inherit source permissions.</small>
-          </div>
-
-          <div class="diagram-arrow"><span>1</span>→</div>
-
-          <div class="aws-account-boundary">
-            <div class="aws-account-title"><span>aws</span> Textent application account · isolated by environment</div>
-
-            <div class="architecture-lanes">
-              <div class="architecture-lane edge-lane">
-                <div class="lane-title">EDGE &amp; IDENTITY</div>
-                <div class="service-row">
-                  <div class="service-node"><img src="assets/aws/cloudfront.svg" alt="" /><span>CloudFront</span></div>
-                  <div class="mini-arrow">→</div>
-                  <div class="service-node"><img src="assets/aws/waf.svg" alt="" /><span>AWS WAF</span></div>
-                  <div class="mini-arrow">→</div>
-                  <div class="service-node"><img src="assets/aws/cognito.svg" alt="" /><span>Cognito</span></div>
-                  <div class="mini-arrow">→</div>
-                  <div class="service-node"><img src="assets/aws/api-gateway.svg" alt="" /><span>API Gateway</span></div>
-                </div>
-                <p>Static application, rate controls, identity, and versioned API boundary.</p>
-              </div>
-
-              <div class="lane-flow-arrow"><span>2</span>↓</div>
-
-              <div class="architecture-lane intake-lane">
-                <div class="lane-title">DIRECT INTAKE &amp; BACKPRESSURE</div>
-                <div class="service-row">
-                  <div class="service-node"><img src="assets/aws/lambda.svg" alt="" /><span>Upload service</span></div>
-                  <div class="mini-arrow">→</div>
-                  <div class="service-node"><img src="assets/aws/s3.svg" alt="" /><span>Temporary S3</span></div>
-                  <div class="mini-arrow dashed">⇢</div>
-                  <div class="service-node"><img src="assets/aws/eventbridge.svg" alt="" /><span>EventBridge</span></div>
-                  <div class="mini-arrow">→</div>
-                  <div class="service-node"><img src="assets/aws/sqs.svg" alt="" /><span>SQS + DLQ</span></div>
-                </div>
-                <p>The API issues a bounded reservation and presigned upload. Files do not travel through the request payload.</p>
-              </div>
-
-              <div class="lane-flow-arrow"><span>3</span>↓</div>
-
-              <div class="architecture-lane processing-lane">
-                <div class="lane-title">ORCHESTRATED DOCUMENT INTELLIGENCE</div>
-                <div class="service-row processing-row">
-                  <div class="service-node"><img src="assets/aws/step-functions.svg" alt="" /><span>Step Functions</span><small>job state + parallel work</small></div>
-                  <div class="mini-arrow">→</div>
-                  <div class="service-node"><img src="assets/aws/lambda.svg" alt="" /><span>Lambda workers</span><small>validate · extract · anchor</small></div>
-                  <div class="mini-arrow">→</div>
-                  <div class="service-node emphasized"><img src="assets/aws/bedrock.svg" alt="" /><span>Amazon Bedrock</span><small>bounded model judgment</small></div>
-                  <div class="mini-arrow">→</div>
-                  <div class="service-node"><img src="assets/aws/lambda.svg" alt="" /><span>Evidence validator</span><small>fail closed</small></div>
-                </div>
-                <div class="conditional-compute"><img src="assets/aws/fargate.svg" alt="" /><span><strong>Conditional heavy processor</strong> — Fargate only when a verified workload exceeds Lambda's execution envelope.</span></div>
-              </div>
-
-              <div class="lane-flow-arrow"><span>4</span>↓</div>
-
-              <div class="architecture-lane record-lane">
-                <div class="lane-title">VERSIONED OUTCOME</div>
-                <div class="service-row">
-                  <div class="service-node"><img src="assets/aws/dynamodb.svg" alt="" /><span>DynamoDB</span><small>job + evidence metadata</small></div>
-                  <div class="mini-arrow">+</div>
-                  <div class="service-node"><img src="assets/aws/s3.svg" alt="" /><span>Result S3</span><small>frozen reports + artifacts</small></div>
-                  <div class="mini-arrow">→</div>
-                  <div class="result-node"><span>5</span><strong>Human review</strong><small>Evidence · consequence · action · disposition</small></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="governance-rail">
-              <div><img src="assets/aws/kms.svg" alt="" /><span><strong>KMS</strong> encryption boundaries</span></div>
-              <div><img src="assets/aws/cloudwatch.svg" alt="" /><span><strong>CloudWatch</strong> content-free health and cost signals</span></div>
-              <div><img src="assets/aws/cloudtrail.svg" alt="" /><span><strong>CloudTrail</strong> control-plane audit</span></div>
-              <div><img src="assets/aws/cdk.svg" alt="" /><span><strong>AWS CDK</strong> reviewed, repeatable infrastructure</span></div>
-            </div>
-          </div>
-
-          <div class="model-boundary">
-            <div class="boundary-title">MANAGED MODEL BOUNDARY</div>
-            <img src="assets/aws/bedrock.svg" alt="" />
-            <strong>Pinned, benchmark-selected configuration</strong>
-            <p>Explicit input/output limits, kill switch, IAM-scoped invocation, and private service access where required.</p>
-          </div>
-        </div>
-
-        <p class="diagram-note">Network placement is intentionally not exaggerated: serverless services are shown in logical responsibility boundaries, and a VPC attachment is introduced only when a private dependency requires it.</p>
-
-        <div class="enterprise-retrieval">
-          <div class="enterprise-retrieval-copy">
-            <span>CONDITIONAL ENTERPRISE RETRIEVAL TIER · NOT IMPLEMENTED</span>
-            <strong>Authorize first. Preserve lineage. Retrieve a bounded candidate set.</strong>
-            <p>Structure-aware chunks → embeddings → permission-filtered lexical/vector candidates → reranking → evidence-backed RAG → exact-source validation.</p>
-          </div>
-          <div class="retrieval-icons">
-            <div><img src="assets/aws/s3.svg" alt="" /><span>Authorized corpus</span></div>
-            <i>→</i>
-            <div><img src="assets/aws/bedrock.svg" alt="" /><span>Embeddings</span></div>
-            <i>→</i>
-            <div><img src="assets/aws/opensearch.svg" alt="" /><span>Hybrid retrieval</span></div>
-            <i>→</i>
-            <div><img src="assets/aws/lambda.svg" alt="" /><span>Rerank + validate</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="presentation-section aws-choice-section">
-        <div class="section-number">04</div>
+      <section class="case-section evidence-section" id="evidence">
         <div class="section-heading">
-          <div class="eyebrow dark-eyebrow">WHY AWS + BEDROCK</div>
-          <h2>One operating environment for workload control, model access, and governance.</h2>
+          <div><span class="section-index">03</span><span class="eyebrow dark-eyebrow">THE EVIDENCE BOUNDARY</span></div>
+          <h2>Built to be inspected—without being mistaken for production.</h2>
+          <p>The public case study separates what is verified, what is designed, and what remains conditional.</p>
         </div>
-        <div class="choice-grid">
-          <article><span>01</span><h3>Serverless workload control</h3><p>Scale intake, queues, orchestration, and workers independently for irregular document demand instead of paying for idle application compute.</p></article>
-          <article><span>02</span><h3>Model choice under evidence</h3><p>Bedrock provides a managed model boundary; Textent would benchmark candidates, pin one configuration, and version every pipeline change.</p></article>
-          <article><span>03</span><h3>Cost is an architecture input</h3><p>Presigned upload, admission limits, queue concurrency, explicit token ceilings, alarms, budgets, and a kill switch bound each job before scale.</p></article>
-          <article><span>04</span><h3>Security shares the control plane</h3><p>IAM, KMS, WAF, CloudTrail, CloudWatch, environment isolation, and infrastructure as code make trust controls reviewable with the system.</p></article>
-        </div>
-        <p class="choice-note">The AWS choice also matches the creator's established cloud-data delivery experience, reducing implementation and operating risk without making familiarity the sole decision criterion.</p>
-      </section>
 
-      <section class="presentation-section enterprise-section">
-        <div class="section-number">05</div>
-        <div class="enterprise-heading">
-          <div>
-            <div class="eyebrow">ENTERPRISE DIRECTION</div>
-            <h2>Move from reviewing files to governing document decisions.</h2>
-          </div>
-          <p>Future capabilities remain conditional on permission, evaluation, cost, deletion, and rollback gates.</p>
-        </div>
-        <div class="enterprise-grid">
-          <article><span>CONNECT</span><strong>Work where documents live</strong><p>Permission-aware OneDrive, SharePoint, Teams, and Slack integrations.</p></article>
-          <article><span>UNDERSTAND</span><strong>Compare at organizational scale</strong><p>Structure-aware chunking, embeddings, hybrid retrieval, reranking, and semantic difference analysis.</p></article>
-          <article><span>REUSE</span><strong>Turn knowledge into repeatable work</strong><p>Controlled templates, generated copies, marked revisions, and portfolio-level comparison.</p></article>
-          <article><span>GOVERN</span><strong>Keep decisions defensible</strong><p>Version lineage, access controls, reviewer actions, approvals, retention, and an auditable record.</p></article>
-        </div>
-      </section>
-
-      <section class="presentation-section evidence-section" id="evidence">
-        <div class="section-number">06</div>
-        <div class="section-heading">
-          <div class="eyebrow dark-eyebrow">BUILD EVIDENCE</div>
-          <h2>Depth without pretending the product is launched.</h2>
-          <p>Every public statement belongs to one of three evidence levels.</p>
-        </div>
         <div class="evidence-ledger">
-          <article class="ledger-now">
-            <span>IMPLEMENTED &amp; VERIFIED OFFLINE</span>
-            <ul>
-              <li>DOCX/OOXML structural validation</li>
-              <li>Deterministic main-body extraction</li>
-              <li>Source-bound evidence anchors</li>
-              <li>Input/token admission contracts</li>
-              <li>Strict future-model evidence validator</li>
-              <li>Verification, idempotency, recovery, access, deletion, and telemetry contracts</li>
-              <li>Accessible React/TypeScript synthetic journey and protected-main verification</li>
-            </ul>
+          <article>
+            <span>VERIFIED OFFLINE</span>
+            <strong>Document and trust contracts</strong>
+            <p>DOCX structure checks, main-body extraction, source-bound evidence anchors, admission limits, fail-closed validation, workflow contracts, and automated verification.</p>
           </article>
-          <article class="ledger-target">
+          <article>
             <span>DESIGNED · NOT DEPLOYED</span>
-            <ul>
-              <li>Direct S3 intake and separated storage boundaries</li>
-              <li>SQS/DLQ backpressure and observable orchestration</li>
-              <li>Lambda/Fargate processing envelope</li>
-              <li>Bounded Amazon Bedrock model stage</li>
-              <li>Metadata-only state, cost controls, deletion, and operational telemetry</li>
-              <li>CDK-based environment isolation and immutable promotion</li>
-            </ul>
+            <strong>AWS operating architecture</strong>
+            <p>Asynchronous intake, processing boundaries, bounded Bedrock use, metadata state, identity, encryption, observability, cost controls, deletion, and recovery.</p>
           </article>
-          <article class="ledger-future">
+          <article>
             <span>CONDITIONAL · NOT IMPLEMENTED</span>
-            <ul>
-              <li>Microsoft 365 and collaboration connectors</li>
-              <li>Semantic chunking, embeddings, vector/keyword hybrid retrieval, and reranking</li>
-              <li>Evidence-backed RAG and controlled generation</li>
-              <li>Document-native revisions, cross-portfolio comparison, and approval workflows</li>
-              <li>Durable agent orchestration only if typed workflows stop being sufficient</li>
-            </ul>
+            <strong>Enterprise retrieval and workflow</strong>
+            <p>Permission-aware connectors, hybrid retrieval, controlled generation, document-native revisions, cross-portfolio comparison, approvals, and durable orchestration where justified.</p>
           </article>
         </div>
-      </section>
 
-      <section class="creator-section">
-        <div>
-          <span>CREATED BY ARAVIND ANISETTI</span>
-          <h2>Product thinking, AWS architecture, and governance translated into one inspectable case study.</h2>
-          <p>Creator &amp; Product Architect · Data Analytics Lead · AWS Certified Solutions Architect – Associate</p>
-        </div>
-        <div class="creator-actions">
-          <a class="button light-button" href="../">View portfolio</a>
-          <a class="button outline-button" href="../assets/resume/Aravind_Anisetti_Data_AI_Solutions_Architect.pdf">View résumé</a>
-          <a class="button outline-button" href="https://www.linkedin.com/in/aravind-a-7534b6168/">LinkedIn ↗</a>
+        <div class="creator-block">
+          <div>
+            <span>CREATED BY ARAVIND ANISETTI</span>
+            <h2>Creator &amp; Product Architect</h2>
+            <p>Product thesis, review model, evidence boundary, AWS target architecture, governance decisions, acceptance gates, and implementation direction.</p>
+          </div>
+          <div class="creator-actions">
+            <a class="button primary-button" href="../">View portfolio</a>
+            <a class="button dark-button" href="../assets/resume/Aravind_Anisetti_Data_AI_Solutions_Architect.pdf">View résumé</a>
+            <a class="button dark-button" href="https://www.linkedin.com/in/aravind-a-7534b6168/">LinkedIn ↗</a>
+          </div>
         </div>
       </section>
     </main>
 
     <footer>
       <span>Textent.ai · Private GenAI product architecture case study</span>
-      <span>Verified offline core · Target architecture · Conditional enterprise direction</span>
+      <span>Synthetic experience · Verified offline core · Target architecture · Conditional direction</span>
     </footer>
 
     <script src="case-study.js"></script>

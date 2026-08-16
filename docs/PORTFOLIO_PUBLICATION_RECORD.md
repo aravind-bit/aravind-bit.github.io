@@ -63,3 +63,22 @@ live URLs.
 
 Revert the publication merge commit and allow GitHub Pages to rebuild. Do not
 delete history or force-push `main`.
+
+## 2026-08-16 recruiter-attention revision
+
+- Reduced the Textent case study from six standalone presentation sections to
+  three narrative acts: product experience, target architecture, and evidence
+  boundary.
+- Reduced the desktop page from approximately 7,180 to approximately 3,141
+  pixels at the 1440-by-1000 review viewport—about three screen lengths.
+- Replaced the yellow status panel and competing accent colors with a 60/30/10
+  system: warm neutral surfaces, deep navy structure, and emerald emphasis.
+- Condensed the AWS diagram while retaining official service icons, workload
+  flow, cross-cutting controls, and the conditional enterprise retrieval path.
+- Regenerated the 1200-by-630 social preview from the revised hero.
+- Removed the promotional FAA/Cisco/Kaiser banner from the resume. Client and
+  program names remain in their accurate experience headings with legal
+  employers preserved.
+- Simplified Textent from four dense bullets to three evidence-bounded bullets
+  and strengthened the Nexus Excel-automation bullet without inventing a
+  percentage, volume, user count, or timing claim.

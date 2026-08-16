@@ -21,6 +21,18 @@ published, verified, and explicitly approved.
 - `textent/assets/aws/` contains the local AWS architecture icons.
 - `textent/assets/textent-case-study-social.png` is the sharing preview.
 
+## Recruiter attention and visual rules
+
+- Keep the Textent case study to three narrative acts: product experience,
+  target architecture, and evidence boundary.
+- Target roughly three desktop screen lengths; do not restore long standalone
+  sections for every design topic.
+- Maintain the 60/30/10 palette: warm neutral surfaces, deep navy structure,
+  and emerald accents. Avoid introducing a competing saturated color without
+  explicit approval.
+- Lead every technical area with the business or operating decision it enables.
+- Keep the interactive example synthetic and the AWS diagram conceptual.
+
 ## Truth and privacy rules
 
 Keep the public material career-safe and synthetic.
@@ -57,6 +69,10 @@ When the resume changes:
    Pages publication.
 
 Do not retain superseded resumes in public asset paths.
+
+Do not add a promotional marquee-client banner above the experience section.
+FAA, Cisco, and Kaiser Permanente should appear in their defensible program or
+client-engagement headings, with the legal employers stated accurately.
 
 ## Required website checks
 
