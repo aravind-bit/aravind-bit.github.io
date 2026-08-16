@@ -10,11 +10,17 @@ document.addEventListener("DOMContentLoaded", () => {
   if (storedTheme === "dark") {
     body.classList.remove("theme-light");
     body.classList.add("theme-dark");
-    if (toggle) toggle.textContent = "Light";
+    if (toggle) {
+      toggle.textContent = "Light";
+      toggle.setAttribute("aria-pressed", "true");
+    }
   } else {
     // default: light
     body.classList.add("theme-light");
-    if (toggle) toggle.textContent = "Dark";
+    if (toggle) {
+      toggle.textContent = "Dark";
+      toggle.setAttribute("aria-pressed", "false");
+    }
   }
 
   if (toggle) {
@@ -24,11 +30,13 @@ document.addEventListener("DOMContentLoaded", () => {
         body.classList.remove("theme-dark");
         body.classList.add("theme-light");
         toggle.textContent = "Dark";
+        toggle.setAttribute("aria-pressed", "false");
         window.localStorage.setItem("aa-theme", "light");
       } else {
         body.classList.remove("theme-light");
         body.classList.add("theme-dark");
         toggle.textContent = "Light";
+        toggle.setAttribute("aria-pressed", "true");
         window.localStorage.setItem("aa-theme", "dark");
       }
     });
