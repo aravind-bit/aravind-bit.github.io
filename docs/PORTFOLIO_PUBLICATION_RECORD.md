@@ -82,3 +82,17 @@ delete history or force-push `main`.
 - Simplified Textent from four dense bullets to three evidence-bounded bullets
   and strengthened the Nexus Excel-automation bullet without inventing a
   percentage, volume, user count, or timing claim.
+
+## 2026-08-16 evergreen-copy and scan-length revision
+
+- Replaced time-sensitive role-preference copy with a neutral architecture-focus
+  statement so the public narrative remains evergreen.
+- Confirmed that the public download is the broad Data & AI Solutions Architect
+  master resume; the three application-specific variants remain private.
+- Added the Medium article “Your AI App Is Bad. Please Don’t Add More Agents
+  Yet.” to the writing section.
+- Compressed vertical spacing and converted the architecture approach into a
+  responsive grid to reduce scrolling without deleting evidence.
+- Consolidated two short local memos into a compact additional-writing row.
+- Verified that the master and three application-specific resume DOCX and PDF
+  files contain no em dash or en dash characters.

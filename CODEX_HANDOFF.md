@@ -6,6 +6,8 @@
 - Textent case study: `https://aravind-bit.github.io/textent/`
 - Resume PDF: `/assets/resume/Aravind_Anisetti_Data_AI_Solutions_Architect.pdf`
 - Resume DOCX: `/assets/resume/Aravind_Anisetti_Data_AI_Solutions_Architect.docx`
+- Public resume profile: broad Data & AI Solutions Architect master resume;
+  job-specific variants remain private in the career workspace.
 
 Do not reintroduce `textent.ai/case-study` unless that URL is independently
 published, verified, and explicitly approved.
@@ -58,6 +60,9 @@ Use these claim levels consistently:
 
 Do not add customers, production traffic, measured accuracy, latency, savings,
 revenue, product-launch status, or other outcomes without defensible evidence.
+
+Keep the public portfolio evergreen and focused on capabilities, completed
+work, architecture judgment, and writing.
 
 ## Resume synchronization
 

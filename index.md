@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Aravind Anisetti — Data & AI Solutions Architecture"
+title: "Aravind Anisetti - Data & AI Solutions Architecture"
 permalink: /portfolio-fallback/
 ---
 
