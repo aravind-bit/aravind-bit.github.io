@@ -1,5 +1,5 @@
-title: Aravind Anisetti
-description: Data — Portfolio & Projects
+title: Aravind Anisetti — Data & AI Solutions Architecture
+description: Governed data, analytics, cloud architecture, applied AI, and product decision-making evidence.
 theme: jekyll-theme-cayman
 url: "https://aravind-bit.github.io"
 baseurl: ""
@@ -8,11 +8,13 @@ show_downloads: false
 
 # Navigation (what appears in the header)
 nav:
-  - text: Data Science Projects
+  - text: Profile
     href: /
-  - text: Writing
-    href: /writing
+  - text: Textent
+    href: /#textent
+  - text: Selected Work
+    href: /#work
   - text: Resume
-    href: /assets/Aravind_Resume.pdf
+    href: /assets/resume/Aravind_Anisetti_Data_AI_Solutions_Architect.pdf
   - text: Contact
     href: mailto:anisetti.ar@gmail.com
