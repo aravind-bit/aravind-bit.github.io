@@ -17,21 +17,28 @@ published, verified, and explicitly approved.
 - `scripts/main.js` owns theme behavior and lightweight interaction.
 - `textent/index.html` owns the case-study narrative and metadata.
 - `textent/case-study.css` owns the case-study presentation system.
-- `textent/case-study.js` owns the synthetic review interaction.
 - `textent/assets/aws/` contains the local AWS architecture icons.
 - `textent/assets/textent-case-study-social.png` is the sharing preview.
 
 ## Recruiter attention and visual rules
 
-- Keep the Textent case study to three narrative acts: product experience,
-  target architecture, and evidence boundary.
+- Keep one connected narrative: the review problem, differentiated product and
+  enterprise direction, connected target architecture, then evidence boundary.
 - Target roughly three desktop screen lengths; do not restore long standalone
   sections for every design topic.
 - Maintain the 60/30/10 palette: warm neutral surfaces, deep navy structure,
   and emerald accents. Avoid introducing a competing saturated color without
   explicit approval.
 - Lead every technical area with the business or operating decision it enables.
-- Keep the interactive example synthetic and the AWS diagram conceptual.
+- Do not add an elaborate synthetic product interface. Explain Reuse, Compare,
+  and Decide in concise text so the page is not mistaken for a functioning app.
+- Keep the AWS diagram conceptual but connected from authorized sources through
+  intake, orchestration, bounded model use, validation, and human disposition.
+- Preserve the enterprise differentiation: OneDrive, SharePoint, Teams, Slack,
+  inherited permissions, structure-aware chunking, hybrid retrieval and
+  reranking, evidence-backed RAG, version comparison, document-native revision,
+  approval, retention, and audit trail. Mark all conditional capabilities as
+  not implemented.
 
 ## Truth and privacy rules
 
@@ -54,8 +61,9 @@ revenue, product-launch status, or other outcomes without defensible evidence.
 
 ## Resume synchronization
 
-The resume link and visible Textent URL must remain
-`https://aravind-bit.github.io/textent/`.
+The resume hyperlink target must remain
+`https://aravind-bit.github.io/textent/`, but its visible text should be the
+product name **Textent**, not the GitHub Pages hostname.
 
 When the resume changes:
 
@@ -81,7 +89,7 @@ Before every publication:
 1. Serve the repository locally.
 2. Render the portfolio and `/textent/` at desktop and mobile widths.
 3. Check horizontal overflow, missing images, internal anchors, empty links,
-   console errors, and the Textent interaction.
+   and console errors.
 4. Scan public files for credential patterns, AWS identifiers, private URLs,
    internal filesystem paths, and accidental private documentation.
 5. Confirm canonical and social metadata use the GitHub Pages URL.
