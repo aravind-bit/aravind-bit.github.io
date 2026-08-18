@@ -31,7 +31,7 @@
       gtag("config", "G-TPZ45FG3Y6");
     </script>
 
-    <link rel="stylesheet" href="styles/app.css?v=20260816-3" />
+    <link rel="stylesheet" href="styles/app.css?v=20260818-1" />
   </head>
 
   <body class="theme-light">
@@ -61,7 +61,7 @@
       <main id="main">
         <section class="hero" id="top">
           <div class="hero-kicker">
-            ARAVIND ANISETTI · DATA ANALYTICS LEAD · DATA &amp; AI SOLUTIONS ARCHITECTURE
+            ARAVIND ANISETTI · DATA ANALYTICS LEAD · CLOUD &amp; AI SOLUTIONS ARCHITECT
           </div>
 
           <h1 class="hero-title">
@@ -127,10 +127,10 @@
                 I translate stakeholder needs into dependable analytics. My work
                 spans Redshift and SQL data models, Power BI reporting, AWS data
                 workflows, monitoring, automation, and governance. I also
-                contributed to a tightly controlled internal RAG capability using
-                Azure OpenAI and Azure AI Search. My role included Power Automate
-                notifications, SQL connector support, and retrieval-design input
-                within enterprise security constraints.
+                worked on a RAG chat capability using Azure OpenAI and Azure AI
+                Search. My role included Power Automate notifications, SQL
+                connector support, and retrieval-design input within enterprise
+                security constraints.
               </p>
             </div>
 
@@ -151,23 +151,37 @@
           <article class="featured-card">
             <div class="featured-copy">
               <div class="status-row">
-                <span class="status-pill">PRIVATE PRODUCT IN DEVELOPMENT</span>
-                <span>Verified offline core · Designed enterprise architecture</span>
+                <span class="status-pill">INDEPENDENT AI PRODUCT</span>
+                <span>Evidence-controlled document decisions</span>
               </div>
 
               <p class="card-tag">CREATOR &amp; PRODUCT ARCHITECT</p>
-              <h2>Textent turns document change into decisions teams can trace.</h2>
-              <p class="featured-lead">
-                Long, versioned documents bury the few changes that alter
-                meaning. Textent is a private document-intelligence product in
-                development that finds those material changes, links each one to
-                exact source evidence, explains why it matters, and keeps the
-                next action with the reviewer’s decision.
+              <h2>Textent turns conflicting documents into decisions teams can defend.</h2>
+              <p>
+                Textent is designed for large, versioned document sets where
+                structure, evidence, and prior decisions must survive every
+                review. It reduces the work to consequential findings: what
+                changed, why it matters, what needs attention, and what was
+                ultimately decided.
               </p>
               <p>
-                I defined the product thesis, review model, evidence contracts,
-                target AWS architecture, governance controls, and acceptance
-                gates. I also directed implementation of the verified offline core.
+                Its three connected paths help teams safely reuse trusted
+                documents, continuously compare revisions against a fixed
+                baseline, and check proposals or recommendations against stated
+                requirements.
+              </p>
+              <p>
+                I created the product direction, designed the AWS-native target
+                architecture, and implemented a bounded comparison path using
+                structure-aware DOCX processing, FAISS retrieval, LangGraph
+                workflow state, independent evidence validation, and human
+                decision gates for a cloud-native agentic AI product.
+              </p>
+              <p class="why-ai">
+                <strong>Why AI?</strong> Related requirements and decisions are
+                often expressed differently across documents and revisions. AI
+                helps connect that meaning while deterministic controls preserve
+                the evidence and decision history.
               </p>
 
               <div class="card-links">
@@ -179,39 +193,36 @@
 
               <div class="decision-grid" aria-label="Textent AI pipeline">
                 <div>
-                  <strong>Understand the document</strong>
-                  <span>Structure-aware parsing and chunking preserve sections, tables, versions, and evidence anchors.</span>
+                  <strong>Relate meaning across documents</strong>
+                  <span>Structure-aware parsing and section alignment connect differently worded requirements before judgment.</span>
                 </div>
                 <div>
-                  <strong>Retrieve what matters</strong>
-                  <span>Embeddings, hybrid search, and reranking narrow large document sets to the passages worth reviewing.</span>
+                  <strong>Challenge every finding</strong>
+                  <span>FAISS retrieval brings paired evidence forward; deterministic validators reject unsupported or role-confused results.</span>
                 </div>
                 <div>
-                  <strong>Use AI without losing control</strong>
-                  <span>Amazon Bedrock can classify or explain bounded candidates; exact-source validation and human approval control the result.</span>
+                  <strong>Keep decision state human-owned</strong>
+                  <span>LangGraph pauses the workflow for accept, defer, or reject and resumes without rewriting the source record.</span>
                 </div>
               </div>
 
-              <p class="availability-note">Private product in development · Public case study uses synthetic content · No customer or production claims</p>
+              <p class="availability-note">Demonstrated through a controlled synthetic decision scenario.</p>
             </div>
 
             <div class="architecture-panel" aria-label="Textent AI and enterprise design summary">
-              <span class="status-label">WHY AI · HOW IT STAYS CONTROLLED</span>
+              <span class="status-label">PROOF BEHIND THE CASE STUDY</span>
               <p class="panel-lead">
-                Rules can find obvious differences. AI is reserved for the
-                harder work: grouping related revisions, ranking materiality,
-                and explaining impact across long documents.
+                The architecture is backed by a repeatable evidence path, not a
+                collection of technology labels.
               </p>
-              <ol>
-                <li>Parse and preserve document structure</li>
-                <li>Chunk, embed, retrieve, and rerank evidence</li>
-                <li>Use Bedrock for bounded classification and explanation</li>
-                <li>Validate every finding against exact source evidence</li>
-                <li>Keep acceptance and action human-owned</li>
-              </ol>
-              <p class="stack-note"><strong>Target AWS stack:</strong> Bedrock, OpenSearch, Lambda, Step Functions, S3, DynamoDB, Cognito, and CloudWatch.</p>
-              <p><strong>Enterprise direction:</strong> authorized OneDrive, SharePoint, Teams, and Slack sources; version comparison, template generation, revision marking, approvals, and an audit trail.</p>
-              <p>Target design; not represented as deployed production infrastructure.</p>
+              <div class="proof-list">
+                <div><strong>Paired evidence</strong><span>Every finding stays linked to both source documents.</span></div>
+                <div><strong>Failure checks</strong><span>Unsupported and role-confused findings are rejected.</span></div>
+                <div><strong>Human decision</strong><span>Accept, defer, or reject remains part of the record.</span></div>
+                <div><strong>Controlled recheck</strong><span>A revision is evaluated without overwriting the prior result.</span></div>
+              </div>
+              <p class="stack-note"><strong>AWS reference architecture:</strong> CDK, CloudFront, Cognito, API Gateway, one safe-OFF Lambda, private S3, SSM controls, CloudWatch, budgets, and a scoped Amazon Bedrock boundary.</p>
+              <p><strong>Enterprise extension:</strong> authorized OneDrive, SharePoint, Teams, and Slack sources; document-intelligence adapters; permission-aware retrieval; approvals; retention; and audit lineage.</p>
             </div>
           </article>
         </section>
@@ -256,7 +267,7 @@
             </div>
             <div>
               <strong>AI &amp; automation</strong>
-              <p>Azure OpenAI, Azure AI Search, RAG, Power Automate, OpenAI, Bedrock target design</p>
+              <p>Azure OpenAI, Azure AI Search, RAG, LangGraph, FAISS, LLM evaluation, Power Automate, Amazon Bedrock architecture</p>
             </div>
             <div>
               <strong>Delivery &amp; operations</strong>

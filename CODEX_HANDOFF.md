@@ -1,5 +1,14 @@
 # Codex handoff - career portfolio and Textent case study
 
+## Current state - evidence-backed recruiter revision
+
+The private synthetic-demo claim gate is complete and the retained handoff is
+now the source of truth for public claims. The portfolio and case study have
+been revised locally around the product problem, verified evidence path, AWS
+reference architecture, and Reuse / Show What Changed / Decision Check model.
+Keep the private Architecture Lab separate from this public repository. Do not
+publish the local revision until Aravind reviews and approves it.
+
 ## Canonical public assets
 
 - Portfolio: `https://aravind-bit.github.io/`
