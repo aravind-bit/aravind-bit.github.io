@@ -7,6 +7,7 @@ analytics, cloud-data delivery, automation, and applied-AI product work.
 
 - Portfolio: <https://aravind-bit.github.io/>
 - Textent architecture case study: <https://aravind-bit.github.io/textent/>
+- Latest Medium article: <https://medium.com/@anisetti.ar/your-ai-app-is-bad-please-dont-add-more-agents-yet-3a6de80c5a04>
 - LinkedIn: <https://www.linkedin.com/in/aravind-a-7534b6168/>
 
 ## Site structure
@@ -15,8 +16,8 @@ analytics, cloud-data delivery, automation, and applied-AI product work.
 - `styles/app.css` - responsive visual system
 - `scripts/main.js` - theme and lightweight interaction
 - `textent/` - self-contained, synthetic Textent product-architecture case study
-- `assets/resume/` - current public resume in PDF and DOCX formats
-- `docs/memos/` - selected public writing and architecture memos
+- `assets/resume/` - broad Data & AI Solutions Architect resume in PDF and DOCX formats
+- `docs/memos/` - retained public notes; not promoted on the main portfolio
 
 ## Public-information boundary
 

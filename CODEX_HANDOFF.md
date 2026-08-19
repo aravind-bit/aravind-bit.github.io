@@ -1,11 +1,22 @@
 # Codex handoff - career portfolio and Textent case study
 
+## Current state - evidence-backed recruiter revision
+
+The private synthetic-demo claim gate is complete and the retained handoff is
+now the source of truth for public claims. The portfolio and case study have
+been revised locally around the product problem, verified evidence path, AWS
+reference architecture, and Reuse / Show What Changed / Decision Check model.
+Keep the private Architecture Lab separate from this public repository. Do not
+publish the local revision until Aravind reviews and approves it.
+
 ## Canonical public assets
 
 - Portfolio: `https://aravind-bit.github.io/`
 - Textent case study: `https://aravind-bit.github.io/textent/`
 - Resume PDF: `/assets/resume/Aravind_Anisetti_Data_AI_Solutions_Architect.pdf`
 - Resume DOCX: `/assets/resume/Aravind_Anisetti_Data_AI_Solutions_Architect.docx`
+- Public resume profile: broad Data & AI Solutions Architect master resume;
+  job-specific variants remain private in the career workspace.
 
 Do not reintroduce `textent.ai/case-study` unless that URL is independently
 published, verified, and explicitly approved.
@@ -22,6 +33,12 @@ published, verified, and explicitly approved.
 
 ## Recruiter attention and visual rules
 
+- Treat Textent as the primary calling card on the portfolio. State the review
+  problem, product outcome, AI role, evidence controls, and Aravind's product
+  ownership before listing supporting infrastructure.
+- Keep the portfolio and case study on the same warm-neutral, deep-navy, and
+  emerald palette. The case study may use denser technical diagrams, but it
+  should still feel like the same visual system.
 - Keep one connected narrative: the review problem, differentiated product and
   enterprise direction, connected target architecture, then evidence boundary.
 - Target roughly three desktop screen lengths; do not restore long standalone
@@ -30,6 +47,10 @@ published, verified, and explicitly approved.
   and emerald accents. Avoid introducing a competing saturated color without
   explicit approval.
 - Lead every technical area with the business or operating decision it enables.
+- Keep public section order intentional: profile, Textent, architecture approach,
+  technical foundation, writing, selected work, credentials, and contact.
+- Promote substantive published articles. Do not add short static notes to the
+  homepage merely to increase the number of writing links.
 - Do not add an elaborate synthetic product interface. Explain Reuse, Compare,
   and Decide in concise text so the page is not mistaken for a functioning app.
 - Keep the AWS diagram conceptual but connected from authorized sources through
@@ -59,6 +80,9 @@ Use these claim levels consistently:
 Do not add customers, production traffic, measured accuracy, latency, savings,
 revenue, product-launch status, or other outcomes without defensible evidence.
 
+Keep the public portfolio evergreen and focused on capabilities, completed
+work, architecture judgment, and writing.
+
 ## Resume synchronization
 
 The resume hyperlink target must remain
@@ -77,6 +101,10 @@ When the resume changes:
    Pages publication.
 
 Do not retain superseded resumes in public asset paths.
+
+Resume prose should use short, natural sentences. Keep `8+ years of experience`
+in the summary, avoid long compound bullets where two sentences read better,
+and preserve ASCII punctuation for reliable ATS extraction.
 
 Do not add a promotional marquee-client banner above the experience section.
 FAA, Cisco, and Kaiser Permanente should appear in their defensible program or

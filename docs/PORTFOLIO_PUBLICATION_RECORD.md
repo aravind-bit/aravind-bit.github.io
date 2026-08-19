@@ -82,3 +82,101 @@ delete history or force-push `main`.
 - Simplified Textent from four dense bullets to three evidence-bounded bullets
   and strengthened the Nexus Excel-automation bullet without inventing a
   percentage, volume, user count, or timing claim.
+
+## 2026-08-16 evergreen-copy and scan-length revision
+
+- Replaced time-sensitive role-preference copy with a neutral architecture-focus
+  statement so the public narrative remains evergreen.
+- Confirmed that the public download is the broad Data & AI Solutions Architect
+  master resume; the three application-specific variants remain private.
+- Added the Medium article “Your AI App Is Bad. Please Don’t Add More Agents
+  Yet.” to the writing section.
+- Compressed vertical spacing and converted the architecture approach into a
+  responsive grid to reduce scrolling without deleting evidence.
+- Consolidated two short local memos into a compact additional-writing row.
+- Verified that the master and three application-specific resume DOCX and PDF
+  files contain no em dash or en dash characters.
+
+## 2026-08-16 Textent calling-card and prose revision
+
+- Rewrote the portfolio introduction to use `more than eight years of
+  experience` and shorter sentences.
+- Replaced `I currently serve as` with a direct description of current FAA
+  analytics responsibilities and combined the applied-AI contribution into the
+  same profile paragraph.
+- Rebuilt the Textent homepage card around the document-review problem, product
+  outcome, AI pipeline, evidence controls, enterprise direction, and creator
+  ownership. Removed implementation-process language that did not differentiate
+  the product.
+- Replaced the generic scale-design list with structure-aware parsing and
+  chunking, embeddings, hybrid retrieval, reranking, bounded Amazon Bedrock use,
+  exact-source validation, and human approval.
+- Aligned the portfolio palette and component geometry with the Textent case
+  study's warm-neutral, deep-navy, and emerald visual system.
+- Moved selected work below technical foundation and published writing. Removed
+  the two short static memo links from the homepage.
+- Regenerated the broad public resume and three private role variants with
+  shorter sentences, natural phrasing, and the existing ATS keywords and
+  measurable outcomes preserved.
+
+## 2026-08-17 agentic document-intelligence revision
+
+- Applied the previously approved typography fixes instead of leaving them as
+  recommendations: self-hosted Inter, larger section labels, reduced letter
+  spacing, a smaller homepage hero, and a simplified Textent status line.
+- Repositioned Textent as a private, cloud-native agentic document-intelligence
+  system for large, versioned document sets rather than a one-file chat demo.
+- Clarified the differentiating workflow: structure-aware decomposition,
+  cross-version alignment, bounded evidence retrieval, agentic coordination,
+  deterministic evidence validation, human approval, and a durable audit trail.
+- Added LangChain, LangGraph, FAISS, Amazon Bedrock, Amazon Textract, and Bedrock
+  Data Automation to the technology narrative with a distinction between the
+  implemented foundation, private architecture lab, and enterprise design.
+- Added explicit responsible-AI principles: evidence before inference,
+  retrieval before generation, bounded autonomy, least privilege, evaluation,
+  human control, observable cost, retention, deletion, alarms, and a kill switch.
+- Kept the changes local for review. No publication or GitHub push was performed.
+
+## 2026-08-18 evidence-backed recruiter revision
+
+- Used the retained Textent portfolio handoff as the claim source while keeping
+  the private Architecture Lab and its repository structure out of the public
+  website.
+- Rewrote the portfolio calling card around a direct outcome: turning
+  conflicting documents into decisions teams can defend. Added concise proof
+  for the implemented DOCX, FAISS, LangGraph, validation, and human-disposition
+  workflow.
+- Rebuilt the case study as one connected product-to-architecture narrative:
+  decision problem, three review paths, evidence engine, AWS reference
+  architecture, enterprise extension, and architecture evidence.
+- Distinguished the implemented evidence path from the CDK-validated AWS
+  reference architecture without using defensive no-customer, no-production,
+  or no-model disclaimers.
+- Added verified proof points from the retained evidence package: 209 automated
+  tests, 90.23 percent test coverage, and the three human dispositions Accept,
+  Defer, and Reject.
+- Regenerated the 1200-by-630 social preview so shared links use the same
+  headline, palette, and evidence hierarchy as the revised case study.
+- Passed structural HTML, local-link, image, anchor, private-path, credential,
+  AWS-identifier, and diff-whitespace checks. Kept all changes local for review;
+  no publication or GitHub push was performed.
+
+## 2026-08-18 product-continuity and readability refinement
+
+- Restored the portfolio headline `Turning complex data and AI problems into
+  scalable business solutions.` and simplified the FAA applied-AI description.
+- Rewrote the Textent calling card around large versioned document sets, three
+  connected product paths, AWS-native product architecture, and a plain-language
+  explanation of why semantic AI is useful for the problem.
+- Expanded Reuse, Show What Changed, and Decision Check using the canonical
+  product specifications. Added the continuous review chain from source snapshot
+  through frozen result, human disposition, bounded recheck, and transition
+  record.
+- Removed unexplained engineering numbers from the first-impression portfolio
+  and case-study panels. Retained test count and code coverage only in the
+  architecture-evidence section, where their scope is stated.
+- Standardized the case-study typography on Inter, removed the monospace status
+  treatment, raised small labels to readable sizes, and regenerated the social
+  preview with the simplified proof language.
+- Re-ran HTML, local-link, image, anchor, sensitive-path, credential-pattern,
+  AWS-identifier, and diff-whitespace checks. Changes remain local for review.
