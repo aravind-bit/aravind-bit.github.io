@@ -16,7 +16,7 @@ a { color:inherit; }
 .hero-copy { align-self:center; }
 .role,.section-label,.product-role,.section-head>span,.contact>div>span { margin:0 0 17px; font-family:SFMono-Regular,Menlo,monospace; font-size:15px; font-weight:700; letter-spacing:.02em; text-transform:uppercase; }
 h1,h2,.work-list strong,.writing-list strong { font-family:Iowan Old Style,Baskerville,"Times New Roman",serif; }
-h1 { max-width:980px; margin:0; font-size:clamp(56px,5vw,78px); font-weight:500; letter-spacing:-.04em; line-height:.98; }
+h1 { max-width:980px; margin:0; color:var(--rust); font-size:clamp(56px,5vw,78px); font-weight:500; letter-spacing:-.04em; line-height:.98; }
 h1 em { color:var(--rust); font-style:italic; font-weight:500; }
 .intro { max-width:900px; margin:25px 0 0; color:var(--soft); font-size:20px; line-height:1.52; }
 .hero-actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:25px; }
